@@ -1,0 +1,363 @@
+body {
+	background-color: white;
+	font-weight: 100;
+}
+#menu, #banner {
+	width: 100%;
+	text-align: center;
+	font: 100 220px Lato, sans-serif;
+}
+#menu {
+	font-size: 28px;
+	font-weight: 300;
+	color: #000000; 
+	top: 0;
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	height: 40px;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+}
+#email-form {
+	text-align: center;
+	padding-bottom: 150px;
+}
+#email-form-2 {
+	text-align: center;
+}
+#email-input, #email-input-2 {
+	border: none;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-bottom: solid 1px #c9c9c9;
+  	transition: border 0.3s;
+  	text-align: center;
+  	color: #c9c9c9;
+  	font: 300 36px Lato, sans-serif;
+}
+#email-input:focus, #email-input-2:focus {
+	border-bottom: solid 1px #000000;
+	outline: none;
+	color: #000000;
+}
+#email-form-button, #email-form-button-2, .purchase-button {
+	border: 1px solid #EB0D28;
+	padding: 12px 18px 18px 18px;
+	background-color: white;
+	font-style: italic !important;
+	font: 36px Lato, sans-serif;
+	transition: background-color 0.3s, color 0.3s;
+}
+#email-form-button:hover, #email-form-button-2:hover, .purchase-button:hover {
+	cursor: pointer;
+	background-color: #EB0D28;
+	color: white;	
+}
+.purchase-button-wrapper {
+	margin-top: 12px !important;
+}
+#logo-icon {
+	float: left;
+	padding-left: 5px;
+}
+.baskerville {
+	font-family: Baskerville, serif;
+}
+#f-a-space-icon {
+	font-size: 14px;
+}
+#f-a-space-main {
+	font-size: 110px;
+}
+#right-icons {
+	float: right;
+	padding-right: 12px;
+}
+.right-icon {
+	padding: 5px;
+}
+.right-icon > a, #logo-icon > a {
+	text-decoration: none;
+	color: black;
+}
+#logo-icon:hover, .right-icon:hover {
+	cursor: pointer;
+}
+.right-icon > a:hover {
+	color: #EB0D28;
+}
+#menu-text-red, #banner-text-red {
+	color: #EB0D28;
+}
+#banner {
+	padding: 175px 0 50px 0;
+}
+#slogan {
+	color: rgba(0,0,0,0.15);
+	font-size: 48px;
+	padding: 30px 0 30px 0;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	transition: color 1s ease;
+}
+#banner:hover {
+	cursor: default;
+}
+#slogan:hover {
+	color: rgba(0,0,0,0);
+}
+.definition {
+	font: 42px Baskerville, serif;
+	margin: 0 10%;
+	text-align: left;
+}
+.definition-word {
+	letter-spacing: 1.5px;
+}
+.definition-part-of-speech {
+	font-style: italic;
+}
+.definition-part-of-speech, .definition-syllables, .definition-pronunciation, .definition-entry {
+	font-size: 24px;
+}
+.definition-entry-multiple {
+	text-indent: -1em !important;
+	padding-left: 1em !important;
+}
+.definition-entry {
+	padding-left: 0em;
+}
+.section-title {
+	font: 100 72px Lato, sans-serif;
+	padding-left: 15%;
+}
+.section-text {
+	font: 300 24px Lato, sans-serif;
+	text-align: justify;
+	line-height: 135%;
+	padding: 0 15%;
+}
+p > a, .caption > a {
+	text-decoration: none;
+	color: #EB0D28;
+}
+.example {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.example-image {
+	width: 100%;
+}
+.quote {
+	text-align: center;
+}
+.quote-text {
+	font: italic 300 48px Lato, sans-serif;
+	color: #EB0D28;
+}
+.quote-author {
+	font: 300 32px Lato, sans-serif;
+}
+.quote-note {
+	font: 300 18px Lato, sans-serif;
+	padding-top: 1em;
+}
+.list {
+	padding-left: 25px;
+	text-align: left;
+}
+.list-subitem {
+	font-weight: 100;
+}
+#prize-amount {
+	text-align: center;
+	font: 72px Lato, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+#contribute-button-wrapper {
+	text-align: center;
+}
+#contribute-button {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	font: 36px Lato, sans-serif;
+	border: 1px solid #EB0D28;
+	padding: 12px 18px 18px 18px;
+	transition: background-color 0.3s, color 0.3s;
+}
+#contribute-button:hover {
+	background-color: #EB0D28;
+	color: white;
+}
+#contribute-disclaimer {
+	font-size: 18px;
+	margin-top: 50px;
+	text-align: center;
+}
+.slider {
+	width: 80%;
+	margin: 0 auto;
+	z-index: -1;
+}
+.ssslide > img {
+	margin: 0 auto !important;
+}
+.caption {
+	font-size: 22px;
+	padding-top: 18px;
+}
+.caption-topline {
+	text-align: center;
+	padding-bottom: 5px;
+}
+.caption-dimensions {
+	font-size: 16px;
+}
+#fart-wrapper {
+	text-align: center;
+}
+#fart {
+	width: 80%;
+}
+#product-details {
+	text-align: center;
+}
+#product-details-title-fartist {
+	font-size: 28px;
+}
+#product-details-date-medium-dimensions {
+	font-size: 20px;
+}
+#product-details-price {
+	font: 28px Lato, sans-serif;
+}
+#product-component-ec210291de2 {
+	margin: 0 auto;
+}
+#footer {
+	font: 100 22px Lato, sans-serif;
+}
+#contact {
+	float: right;
+}
+@media only screen and (max-width: 875px) {
+	#banner {
+		font-size: 160px !important;
+	}
+	#f-a-space-main {
+		font-size: 80px !important;
+	}
+	#slogan {
+		font-size: 32px !important;
+	}
+	.definition {
+		width: 100%;
+		margin: 0;
+		font-size: 26px !important;
+	}
+	.definition-part-of-speech, .definition-syllables, .definition-pronunciation, .definition-entry {
+		font-size: 18px !important;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#menu {
+		font-size: 16px;
+		height: 20px;
+	}
+	#banner {
+		font-size: 80px !important;
+		padding: 100px 0 40px 0;
+	}
+	#f-a-space-icon {
+		font-size: 8px !important;
+	}
+	#f-a-space-main {
+		font-size: 40px !important;
+	}
+	#slogan {
+		font-size: 24px;
+	}
+	#email-input, #email-input-2 {
+		margin-bottom: 40px;
+	}
+	#email-input, #email-form-button, #email-input-2, #email-form-button-2, .purchase-button, #contribute-button, .sr-add {
+		font-size: 18px !important;
+		padding-bottom: 14px !important;
+	}
+	#email-form, #email-form-2 {
+		padding-bottom: 40px;
+	}
+	.definition {
+		font-size: 18px !important;
+	}
+	.definition-part-of-speech, .definition-syllables, .definition-pronunciation, .definition-entry {
+		font-size: 14px !important;
+	}
+	.section-title {
+		font-size: 48px !important;
+		padding-left: 5% !important;
+	}
+	.section-text {
+		font-size: 16px !important;
+		padding: 0 5% !important;
+	}
+	.quote-text {
+		font: italic 300 32px Lato, sans-serif;
+		color: #EB0D28;
+	}
+	.quote-author {
+		font: 300 20px Lato, sans-serif;
+	}
+	.quote-note {
+		font: 300 14px Lato, sans-serif;
+	}
+	#prize-amount {
+		font-size: 48px !important;
+		margin-bottom: 35px;
+	}
+	#contribute-disclaimer {
+		font-size: 12px !important;
+	}
+	.slider {
+		width: 100% !important;
+	}
+	.caption {
+		font-size: 12px !important;
+	}
+	.caption-dimensions {
+		font-size: 10px !important;
+	}
+	#fart {
+		width: 100% !important;
+	}
+	#product-details-title-fartist, #product-details-price {
+		font-size: 16px !important;
+	}
+	#product-details-date-medium-dimensions {
+		font-size: 12px !important;
+	}
+	.sr-add {
+		width: 50%;
+		margin: 0 auto !important;
+	}
+	#footer {
+		font-size: 12px !important;
+	}
+}
+@media only screen and (max-width: 350px) {
+	#menu {
+		font-size: 12px;
+		height: 16px;
+	}
+}
+#footer {
+	font: 100 22px Lato, sans-serif;
+}
+#contact {
+	float: right;
+}
